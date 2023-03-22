@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  playground:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-22T20:00:54.842865053Z"
+    description: A Helm chart for Kubernetes
+    digest: 3065d3ab029938d9b19225a39228be5b0c340d2680f151c2cea84f3e18e00bee
+    name: playground
+    type: application
+    urls:
+    - https://github.com/ElRojo/helm-argo-test/releases/download/playground-0.1.3/playground-0.1.3.tgz
+    version: 0.1.3
+generated: "2023-03-22T20:00:54.842876553Z"

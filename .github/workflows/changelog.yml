@@ -33,11 +33,11 @@ jobs:
         with:
           fallback: 1.0.0
  
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
-        with:
-          commit-message: 'docs(changelog): update changelog to ${{ steps.previous-stage.outputs.tag }}'
-          title: Update Changelog
-          body: Update changelog to reflect release changes
-          branch: update-changelog
-          base: main
+      - name: Git commit / push
+        working-directory: .
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m 'docs(changelog): update changelog to ${{ steps.previous-stage.outputs.tag }}'
+          git push

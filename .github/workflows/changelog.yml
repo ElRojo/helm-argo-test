@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get tags # git-chglog uses tags, so they need to be fetched
+      - name: Get tags
         run: |
           git fetch --tags origin
           git tag --list

@@ -35,3 +35,6 @@ jobs:
  
       - name: Commit changelog 
         uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit-message: 'docs(changelog): update changelog to ${{ steps.previous-stage.outputs.tag }}'

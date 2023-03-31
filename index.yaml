@@ -30,7 +30,7 @@ entries:
     name: test
     type: application
     urls:
-    - https://raw.githubusercontent.com/ElRojo/helm-argo-test/gh-pages/test-0.1.2-alpha-anotherver.tgz
+    - test-0.1.2-alpha-anotherver.tgz
     version: 0.1.2-alpha-anotherver
   - apiVersion: v2
     appVersion: 1.16.0

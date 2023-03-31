@@ -19,7 +19,7 @@ entries:
     name: playground
     type: application
     urls:
-    - https://raw.githubusercontent.com/ElRojo/helm-argo-test/gh-pages/playground-0.2.5.tgz
+    - playground-0.2.5.tgz
     version: 0.2.5
   test:
   - apiVersion: v2

@@ -3,7 +3,17 @@ entries:
   playground:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-31T19:38:21.22110475Z"
+    created: "2023-03-31T19:39:50.231371145Z"
+    description: A Helm chart for Kubernetes
+    digest: 84694e5447faba342063f398e7f7d6d4f4981323e0bbf2b282778a5d284e9901
+    name: playground
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/ElRojo/helm-argo-test/gh-pages/playground-0.2.6.tgz
+    version: 0.2.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T19:39:50.230908038Z"
     description: A Helm chart for Kubernetes
     digest: c7ca05c45639a8eb3c6442b395cfa966bbac8ee68e74e7668fdd2e8679943628
     name: playground
@@ -14,7 +24,17 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-31T19:38:21.221522453Z"
+    created: "2023-03-31T19:39:50.232266457Z"
+    description: A Helm chart for Kubernetes
+    digest: 2ad6d2421dff967314faecd5d3b74da4bfefbf009449742a5f8cfb0c5d450837
+    name: test
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/ElRojo/helm-argo-test/gh-pages/test-0.1.2-alpha-anotherver.tgz
+    version: 0.1.2-alpha-anotherver
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T19:39:50.231816151Z"
     description: A Helm chart for Kubernetes
     digest: 8b92c26f26c7c3017f8ff90f4e1d03cbc9a292ed43685ee7f9dcd62cf786f69c
     name: test
@@ -22,4 +42,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ElRojo/helm-argo-test/gh-pages/test-0.1.0-alpha-timestamp.tgz
     version: 0.1.0-alpha-timestamp
-generated: "2023-03-31T19:38:21.220475747Z"
+generated: "2023-03-31T19:39:50.23030553Z"
